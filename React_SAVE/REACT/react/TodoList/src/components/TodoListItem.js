@@ -23,13 +23,15 @@ const Div = styled.div`
             flex: 1; 
         }
         
-        &.checkd {
+        &.checked {
+            color: white;
             svg {
                 color: #22b8cf;
             }
             .text {
-                color: #adb5bd;
-                text-decoration: line-through;
+                color: #adb5bd; 
+                transition: .4s;
+                text-decoration: line-through 
             }
         }
     }
@@ -57,7 +59,7 @@ const TodoListItem = ({ todo, onRemove,onToggle }) => {
         <Div className="TodoListItem">
             <div className={cn('checkbox', { checked })} onClick={() => onToggle(id)}>
                 {checked ? <MdCheckBox /> : <MdCheckBoxOutlineBlank />}
-                <div className="text">{text}</div>
+                <div className='text'>{text}</div>
             </div>
             <div className="remove" onClick={() => onRemove(id)}>
                 <MdRemoveCircleOutline />

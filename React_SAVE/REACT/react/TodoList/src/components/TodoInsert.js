@@ -33,6 +33,7 @@ const Form = styled.form`
         cursor: pointer;
         &:hover {
             background: #adb5bd;
+            transition: .6s;
         }
     }
 `;
@@ -52,6 +53,7 @@ const TodoInsert = ({ onInsert }) => {
             onInsert(value);
             setValue(''); // value 값 초기화
 
+            
             // submit 이벤트는 브라우저에서 새로고침을 발생시킨다.
             // 이를 방지하기 위해 이 함수를 호출
             e.preventDefault();

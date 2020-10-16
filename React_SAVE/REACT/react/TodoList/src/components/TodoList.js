@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Div = styled.div`
     min-height: 320px;
-    max-height: 513px;
+    max-height: 345px;
     overflow-y: auto;
 `;
 
