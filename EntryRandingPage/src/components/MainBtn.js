@@ -38,6 +38,7 @@ const Div = styled.div`
     .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        text-align: center;
     }
 
     .intro-lead-in {
@@ -59,9 +60,13 @@ const Div = styled.div`
     }
     
     .intro-circleName {
+        display: flex;
         font-size: 60px;
         font-weight: bold; 
         font-family: 'Nanum Gothic', sans-serif;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     .btn {
@@ -79,7 +84,7 @@ const Div = styled.div`
 
     .btn:hover {
         background: #5FB4DA;
-        transition: .4s;
+        transition: .3s;
     }
 `;
 // #3DFFEB (메인 컬러)

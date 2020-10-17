@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import MainBtn from './components/MainBtn';
-import MainIntroEntry from './components/MainIntroEntry';
+import ServiceEntry from './components/ServiceEntry';
 import {GlobalStyle} from './GlobalStyle';
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
         <GlobalStyle />
         <Header />
         <MainBtn />
-        <MainIntroEntry />
+        <ServiceEntry />
     </div>
   );  
 }

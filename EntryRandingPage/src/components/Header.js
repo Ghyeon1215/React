@@ -36,6 +36,7 @@ const Div = styled.div`
 
     .nav-logo {
         display: grid;
+        padding: 18px 0;
         justify-content: center;
         align-items: center;
         width: 30%;
