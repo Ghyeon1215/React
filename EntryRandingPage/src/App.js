@@ -1,8 +1,9 @@
 import React from 'react';
+import {GlobalStyle} from './GlobalStyle';
 import Header from './components/Header';
 import MainBtn from './components/MainBtn';
 import ServiceEntry from './components/ServiceEntry';
-import {GlobalStyle} from './GlobalStyle';
+import Portfolio from './components/Portfolio';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Header />
         <MainBtn />
         <ServiceEntry />
+        <Portfolio />
     </div>
   );  
 }
