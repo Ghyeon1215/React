@@ -30,6 +30,7 @@ const Form = styled.form`
         font-size: 1.5rem;
         display: flex;
         align-items: center;
+        transition: .8s;
         cursor: pointer;
         &:hover {
             background: #adb5bd;
