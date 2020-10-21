@@ -87,6 +87,8 @@ const Div = styled.div`
         transition: .3s;
     }
 `;
+
+
 // #3DFFEB (메인 컬러)
 const Header = () => {
     return (
